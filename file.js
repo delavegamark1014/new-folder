@@ -23,7 +23,7 @@ let cScore= 0
         let player = prompt('pick')
         
         if (player==computer) {
-            return `draw, the score is ${myscore}:${cScore}`
+            return `draw`
         } else if (computer=='rock'){
             return (player=='paper') ? `you win(paper beat rock), the score is ${myScore+=1}:${cScore}` : `you lose(cpu picked rock) the score is ${myScore}:${cScore+=1}`
         }  else if (computer=='paper'){
